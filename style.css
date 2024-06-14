@@ -36,17 +36,45 @@ h3 {
     margin: 0;
 }
 
-@media only screen and (max-width: 500px) {
+.NoCookies {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    top: 8rem;
+    right: 16rem;
+}
+
+@media only screen and (max-width: 600px) {
     :root {
         font-size: 9px;
     }
     .mastodon, .matrix, .github {
         margin-bottom: 2rem;
     }
+    .NoCookies {
+        max-width: 90%;
+        height: auto;
+        position: relative;
+        left: 0rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .NoCookies {
+        max-width: 60%;
+        height: auto;
+        position: relative;
+        right: 2rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     :root {
         font-size: 7px;
+    }
+    .NoCookies {
+        max-width: 50%;
+        height: auto;
+        position: absolute;
     }
 }
