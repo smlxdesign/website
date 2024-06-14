@@ -22,6 +22,7 @@ p em, .mastodon em, em, a {
     color: var(--primtextcol);
     font-style: normal;
     text-decoration: none;
+    margin-bottom: 5rem;
 }
 
 .socials {
@@ -33,4 +34,19 @@ h3 {
     font-size: 3rem;
     color: var(--primtextcol);
     margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+    :root {
+        font-size: 9px;
+    }
+    .mastodon, .matrix, .github {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    :root {
+        font-size: 7px;
+    }
 }
