@@ -11,7 +11,7 @@ body {
     font-size: 3rem;
 }
 
-p, .mastodon {
+p, .mastodon, .matrix, .github {
     font-weight: 400;
     color: var(--secotextcol);
     margin: 0;
@@ -26,7 +26,7 @@ p em, .mastodon em, em, a {
 
 .socials {
     color: var(--primtextcol);
-    display: flex;
+    display: block;
 }
 
 h3 {
