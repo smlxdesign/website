@@ -1,0 +1,42 @@
+:root {
+    font-size: 8px;
+    --primtextcol: #ffffff;
+    --secotextcol: #7b7ba3;
+}
+
+body {
+    font-family: "Courier Prime";
+    background-color: #1B1B25;
+    margin: 8vh 8vw;
+    font-size: 3rem;
+}
+
+p, .mastodon {
+    font-weight: 400;
+    color: var(--secotextcol);
+    margin: 0;
+}
+
+p em, .mastodon em, em, a {
+    font-weight: 700;
+    color: var(--primtextcol);
+    font-style: normal;
+    text-decoration: none;
+}
+
+.socials {
+    color: var(--primtextcol);
+    display: flex;
+}
+
+.socials .mastodon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h3 {
+    font-size: 3rem;
+    color: var(--primtextcol);
+    margin: 0;
+}
