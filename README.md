@@ -4,8 +4,8 @@
 Just a little website :smiley:
 
 # SMLX website
-**DISCLAIMER!**
-Do not download anything from sites pretending to be me. Only download from my official sites and GitHub repos. 
+**NOT COMPLETE!**
+This website is currently in development, and is lacking CSS. Please do not submit issues / pull requests, since this is expected.
 
 [**VISIT LIVE SITE**](https://smlxdesign.github.io/website)
 
